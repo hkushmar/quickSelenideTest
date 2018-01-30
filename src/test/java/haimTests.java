@@ -12,12 +12,24 @@ import org.openqa.selenium.Keys;
 
 public class haimTests {
     @Test
-    public void search_selenide_in_google() {
+    public void search_google() {
         Configuration.browser = "chrome";
         open("http://www.google.com");
         $("#lst-ib").setValue("Ivan Drago");
         $("#lst-ib").sendKeys(Keys.RETURN);
         $(byText("Ivan Drago - Wikipedia")).click();
+        screenshot("IVAN DRAGO");
+        //$("#btnK").click();
+        //screenshot("test2");
+    }
+
+    @Test
+    public void search_google_again() {
+        Configuration.browser = "chrome";
+        open("http://www.google.com");
+        $("#lst-ib").setValue("Rocky Balboa");
+        $("#lst-ib").sendKeys(Keys.RETURN);
+        $(byText("Rocky Balboa - Wikipedia")).click();
         screenshot("IVAN DRAGO");
         //$("#btnK").click();
         //screenshot("test2");
