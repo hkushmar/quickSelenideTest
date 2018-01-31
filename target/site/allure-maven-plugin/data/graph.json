@@ -1,0 +1,17 @@
+[ {
+  "uid" : "2fce19f5309246f9",
+  "name" : "search_google",
+  "time" : {
+    "duration" : 2212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f36d219cc75f4329",
+  "name" : "search_google_again",
+  "time" : {
+    "duration" : 8910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "f36d219cc75f4329",
+  "name" : "search_google_again",
+  "historyId" : "haimTests#search_google_again",
+  "time" : {
+    "duration" : 8910
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "224e2d2da28494c1",
+      "name" : "System out",
+      "source" : "224e2d2da28494c1.txt",
+      "type" : "text/plain",
+      "size" : 258
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "haimTests"
+  }, {
+    "name" : "testClass",
+    "value" : "haimTests"
+  }, {
+    "name" : "package",
+    "value" : "haimTests"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f36d219cc75f4329.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

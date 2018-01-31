@@ -1,0 +1,36 @@
+{
+  "haimTests#search_google_again" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f36d219cc75f4329",
+      "status" : "passed",
+      "time" : {
+        "duration" : 8910
+      }
+    } ]
+  },
+  "haimTests#search_google" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fce19f5309246f9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2212
+      }
+    } ]
+  }
+}

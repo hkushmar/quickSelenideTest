@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "search_google",
+    "uid" : "2fce19f5309246f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2212
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "search_google_again",
+    "uid" : "f36d219cc75f4329",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 8910
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
